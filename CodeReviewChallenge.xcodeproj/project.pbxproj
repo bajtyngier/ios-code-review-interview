@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		715D82DA2A4D8EEF00D9EC2C /* RedeemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82D92A4D8EEF00D9EC2C /* RedeemBuilder.swift */; };
+		715D82DD2A4D8F1200D9EC2C /* RedeemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82DC2A4D8F1200D9EC2C /* RedeemViewController.swift */; };
+		715D82E02A4D8F3600D9EC2C /* RedeemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82DF2A4D8F3600D9EC2C /* RedeemInteractor.swift */; };
+		715D82E32A4D8F5300D9EC2C /* RedeemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82E22A4D8F5300D9EC2C /* RedeemPresenter.swift */; };
+		715D82E62A4D8F7200D9EC2C /* RedeemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82E52A4D8F7200D9EC2C /* RedeemView.swift */; };
+		715D82E82A4D8F7B00D9EC2C /* RedeemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82E72A4D8F7B00D9EC2C /* RedeemViewModel.swift */; };
+		715D82EB2A4D8F9C00D9EC2C /* RedemptionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715D82EA2A4D8F9C00D9EC2C /* RedemptionWorker.swift */; };
 		7170AED52A4D8C29000A9ACD /* CodeReviewChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7170AED42A4D8C29000A9ACD /* CodeReviewChallengeApp.swift */; };
 		7170AED72A4D8C29000A9ACD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7170AED62A4D8C29000A9ACD /* ContentView.swift */; };
 		7170AED92A4D8C2B000A9ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7170AED82A4D8C2B000A9ACD /* Assets.xcassets */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		715D82D92A4D8EEF00D9EC2C /* RedeemBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemBuilder.swift; sourceTree = "<group>"; };
+		715D82DC2A4D8F1200D9EC2C /* RedeemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemViewController.swift; sourceTree = "<group>"; };
+		715D82DF2A4D8F3600D9EC2C /* RedeemInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemInteractor.swift; sourceTree = "<group>"; };
+		715D82E22A4D8F5300D9EC2C /* RedeemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemPresenter.swift; sourceTree = "<group>"; };
+		715D82E52A4D8F7200D9EC2C /* RedeemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemView.swift; sourceTree = "<group>"; };
+		715D82E72A4D8F7B00D9EC2C /* RedeemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemViewModel.swift; sourceTree = "<group>"; };
+		715D82EA2A4D8F9C00D9EC2C /* RedemptionWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedemptionWorker.swift; sourceTree = "<group>"; };
 		7170AED12A4D8C29000A9ACD /* CodeReviewChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeReviewChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7170AED42A4D8C29000A9ACD /* CodeReviewChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeReviewChallengeApp.swift; sourceTree = "<group>"; };
 		7170AED62A4D8C29000A9ACD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +86,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715D82D72A4D8EC600D9EC2C /* Redeem */ = {
+			isa = PBXGroup;
+			children = (
+				715D82D82A4D8ECB00D9EC2C /* Builder */,
+				715D82DB2A4D8EFB00D9EC2C /* Controller */,
+				715D82DE2A4D8F2300D9EC2C /* Interactor */,
+				715D82E12A4D8F4000D9EC2C /* Presenter */,
+				715D82E42A4D8F6500D9EC2C /* View */,
+				715D82E92A4D8F9300D9EC2C /* Worker */,
+			);
+			path = Redeem;
+			sourceTree = "<group>";
+		};
+		715D82D82A4D8ECB00D9EC2C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				715D82D92A4D8EEF00D9EC2C /* RedeemBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		715D82DB2A4D8EFB00D9EC2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				715D82DC2A4D8F1200D9EC2C /* RedeemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		715D82DE2A4D8F2300D9EC2C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				715D82DF2A4D8F3600D9EC2C /* RedeemInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		715D82E12A4D8F4000D9EC2C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				715D82E22A4D8F5300D9EC2C /* RedeemPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		715D82E42A4D8F6500D9EC2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				715D82E52A4D8F7200D9EC2C /* RedeemView.swift */,
+				715D82E72A4D8F7B00D9EC2C /* RedeemViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		715D82E92A4D8F9300D9EC2C /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				715D82EA2A4D8F9C00D9EC2C /* RedemptionWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
 		7170AEC82A4D8C29000A9ACD = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +171,7 @@
 		7170AED32A4D8C29000A9ACD /* CodeReviewChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				715D82D72A4D8EC600D9EC2C /* Redeem */,
 				7170AED42A4D8C29000A9ACD /* CodeReviewChallengeApp.swift */,
 				7170AED62A4D8C29000A9ACD /* ContentView.swift */,
 				7170AED82A4D8C2B000A9ACD /* Assets.xcassets */,
@@ -259,7 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715D82EB2A4D8F9C00D9EC2C /* RedemptionWorker.swift in Sources */,
+				715D82DA2A4D8EEF00D9EC2C /* RedeemBuilder.swift in Sources */,
+				715D82E02A4D8F3600D9EC2C /* RedeemInteractor.swift in Sources */,
+				715D82E62A4D8F7200D9EC2C /* RedeemView.swift in Sources */,
 				7170AED72A4D8C29000A9ACD /* ContentView.swift in Sources */,
+				715D82DD2A4D8F1200D9EC2C /* RedeemViewController.swift in Sources */,
+				715D82E32A4D8F5300D9EC2C /* RedeemPresenter.swift in Sources */,
+				715D82E82A4D8F7B00D9EC2C /* RedeemViewModel.swift in Sources */,
 				7170AED52A4D8C29000A9ACD /* CodeReviewChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
